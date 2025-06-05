@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Fun Fact Generator</title>
+  <title>To-Do List</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1>Random Fun Fact</h1>
-    <p id="fact">Click the button to see a fun fact!</p>
-    <button onclick="showFact()">Show Me a Fact</button>
+    <h1>My To-Do List</h1>
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
   </div>
   <script src="script.js"></script>
 </body>
